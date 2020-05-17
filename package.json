@@ -1,0 +1,20 @@
+{
+  "name": "type_script_protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/config.js",
+    "pretest": "tsc"
+  },
+  "author": "Vinod",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.1.0",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^6.0.62"
+  }
+}
